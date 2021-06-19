@@ -1,0 +1,41 @@
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 120px;
+}
+nav {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    height: 80px;
+    line-height: 40px;
+}
+main{
+    background-color: green;
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 1px;
+}
+article {
+    background-color: blue;
+    color: white;
+    height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+footer {
+    background-color: violet;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+}
+ul.hr li {
+    display: inline;
+}
+header h1{
+    font-size: 40px;
+}
