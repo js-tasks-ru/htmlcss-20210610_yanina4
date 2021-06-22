@@ -1,1 +1,26 @@
-/* Стилизация кнопки */
+.button__primery{
+    background-color: blue;
+    color: white
+}
+.button__secondary{
+    background-color:blueviolet;
+    color: white
+}
+.button__alternate{
+    background-color: rgb(236, 176, 231);
+    color: white
+}
+.button_hover:hover{
+    font-weight: bold;
+    color: black;
+}
+.button_disabled:disabled{
+    opacity: 0.5;
+    cursor:default;
+}
+.button:active{
+    background-color: red;
+}
+.button{
+    cursor: pointer
+}
