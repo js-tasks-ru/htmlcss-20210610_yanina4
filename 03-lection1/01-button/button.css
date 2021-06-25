@@ -1,13 +1,9 @@
 /* Стилизация кнопки */
 .button{
     cursor: pointer;
-    Width: 189px;
     Height: 48px;
     border-radius: 8px;
-    margin-bottom: 16px;
-    margin-right: 33px;
-    padding-top: 15px;
-    padding-bottom: 14px;
+    padding: 15px 20px 14px;
     text-align: center;
     font-family: Roboto;
     font-style: normal;
@@ -45,8 +41,14 @@
 .button:disabled{
     opacity: 0.5;
     cursor:default;
+    pointer-events: none;
 }
-.button:active{
-    font-weight: bold;
-    font-size: 17px;
+
+.main-buttons__button{
+    margin-bottom: 16px;
+    margin-right: 33px;
+}
+.main-buttons__button:last-child {
+    margin-bottom: 0;
+    margin-right: 0;
 }
