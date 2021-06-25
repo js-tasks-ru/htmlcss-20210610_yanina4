@@ -44,10 +44,6 @@
     pointer-events: none;
 }
 
-.main-buttons__button{
-    margin-bottom: 16px;
-    margin-right: 33px;
-}
 .main-buttons__button:last-child {
     margin-bottom: 0;
     margin-right: 0;
