@@ -1,5 +1,4 @@
 .header {
-    height: 237px;
     background-color: var(--white);
 }
 
@@ -10,5 +9,5 @@
     font-size: 50px;
     line-height: 64px;
     color: var(--black);
-    padding-top: 96px;
+    margin-top: 96px;
 }
