@@ -1,0 +1,6 @@
+.main {
+    background: #F9FAFC;
+    border-bottom: 1px solid var(--grey-2);
+    border-top: 1px solid var(--grey-2);
+    top: 237px;
+}
