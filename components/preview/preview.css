@@ -1,0 +1,15 @@
+.preview {
+    display: flex;
+    background: #F9FAFC;
+    padding: 68px 0 92px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.preview__card {
+    flex-basis: 350px;
+    height: 367px;
+    background: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+}
