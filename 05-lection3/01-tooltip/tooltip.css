@@ -1,13 +1,8 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 55px;
-}
-
 .tooltip {
     position: relative;
     display: inline-block;
+    margin-left: 54px;
+    margin-top: 55px;
 }
 
 .tooltip__trigger {
@@ -15,8 +10,6 @@ body {
 }
 
 .tooltip__menu {
-    width: 129px;
-    height: 45px;
     background: var(--primary);
     border-radius: 10px;
     position: absolute;
@@ -30,8 +23,8 @@ body {
     line-height: 24px;
     text-align: center;
     color: var(--grey-2);
-
 }
+
 .tooltip__menu:after {
     content: "";
     border: 14px solid transparent;
