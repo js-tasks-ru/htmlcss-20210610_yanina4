@@ -1,4 +1,14 @@
 .modal {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--modal-background);
+    display: none;
+}
+
+.modal__window {
     width: 428px;
     background: var(--white);
     border-radius: 8px;
@@ -6,11 +16,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
-    box-shadow: 0 0 0 9999px rgba(196, 196, 196, 0.5);
 }
 
-.modal__text {
+.modal__content {
     position: relative;
     font-family: Inter;
     font-style: normal;
@@ -28,9 +36,7 @@
     padding-top: 15px;
 }
 
-.modal-close {
+.modal__close {
     position: absolute;
-    left: 100%;
-    transform: translate(-100%, 0);
-    padding-right: 15px;
+    right: 15px;
 }
