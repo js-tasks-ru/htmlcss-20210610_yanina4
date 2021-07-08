@@ -1,0 +1,31 @@
+.menu {
+    width: 229px;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.menu__list {
+    color: var(--black);
+    font-family: Inter;
+}
+
+.menu__list_chapter {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 32px 0px 16px 0px;
+}
+
+.menu__list_link {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 2px 0px;
+    text-decoration: none;
+}
+
+.menu__list_chapter:first-child {
+    margin-top: 0;
+}
+
+.menu__list_link:hover {
+    color: var(--red);
+}
