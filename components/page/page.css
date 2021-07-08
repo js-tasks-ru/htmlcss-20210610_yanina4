@@ -12,21 +12,12 @@
 
 .page__main{
     background: var(--background-layout);
-    border: 1px solid var(--grey-2);
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
 }
 
 .page__main_component {
     border: 0;
-}
-
-.menu {
-    width: 229px;
-    display: grid;
-    grid-template-columns: auto;
-}
-
-.component {
-    background: var(--white);
 }
 
 .page__inner {
@@ -35,30 +26,4 @@
     grid-column-gap: 56px;
     justify-self: center;
     width: 100%;
-}
-
-.menu__list {
-    color: var(--black);
-    font-family: Inter;
-}
-
-.menu__list_chapter {
-    font-size: 20px;
-    line-height: 26px;
-    margin: 32px 0px 16px 0px;
-}
-
-.menu__list_link {
-    font-size: 14px;
-    line-height: 22px;
-    margin: 2px 0px;
-    text-decoration: none;
-}
-
-.menu__list_chapter:first-child {
-    margin-top: 0;
-}
-
-.menu__list_link:hover {
-    color: var(--red);
 }
