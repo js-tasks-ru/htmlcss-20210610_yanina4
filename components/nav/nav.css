@@ -7,7 +7,7 @@
         display: flex;
         align-items: center;
         gap: 24px;
-        margin-top: 32px;
+        padding-top: 8px;
     }
 
     .nav__link {

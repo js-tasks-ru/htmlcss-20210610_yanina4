@@ -41,12 +41,9 @@
         justify-content: space-between;
         align-items: center;
         border-bottom: 0;
-    }
-    
-    .header__logo{
         margin-top: 24px;
     }
-    
+   
     .header_component {
         padding-bottom: 15px;
     }   
