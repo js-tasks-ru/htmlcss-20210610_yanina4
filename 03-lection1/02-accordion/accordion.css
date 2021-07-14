@@ -44,16 +44,16 @@
     margin: 0;
 }
 
-.icon-arrow {
+.accordion__icon {
     width: 25px;
     height: 25px;
 }
 
-.icon-arrow_rotate {
+.accordion__icon_rotate {
     position:absolute;
     transform: rotate(180deg);
 }
 
-.accordion__item:hover .icon-arrow {
+.accordion__item:hover .accordion__icon {
     transform: rotate(180deg);
 }

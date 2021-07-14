@@ -43,7 +43,7 @@
 .tooltip__text {
     transform: translate(0, 50%);
 }
-.icon-help {
+.tooltip__icon {
     width: 25px;
     height: 25px;
 }
