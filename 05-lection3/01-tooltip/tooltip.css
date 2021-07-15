@@ -43,3 +43,7 @@
 .tooltip__text {
     transform: translate(0, 50%);
 }
+.tooltip__icon {
+    width: 25px;
+    height: 25px;
+}
