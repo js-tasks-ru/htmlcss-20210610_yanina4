@@ -20,10 +20,6 @@
     position: relative;
 }
 
-.checkbox__control_disabled {
-    background: var(--grey-2); 
-}
-
 .checkbox__legend {
     font-family: Inter;
     font-style: normal;
@@ -60,4 +56,8 @@
 
 .checkbox__input:focus ~ .checkbox__state .checkbox__legend {
     text-decoration: underline;
+}
+
+.checkbox__input:disabled ~ .checkbox__state .checkbox__control {
+    background: var(--grey-2); 
 }
