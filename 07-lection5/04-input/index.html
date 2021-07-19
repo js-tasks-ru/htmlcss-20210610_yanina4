@@ -2,10 +2,25 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="../../assets/css/reset.css">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
-
+        <label class="form-group">
+            <input tipe="text" class="form-group__input" placeholder="Placeholder">
+        </label>
+        <label class="form-group">
+            <input tipe="text" class="form-group__input form-group__input_success" disabled placeholder="Success">
+            <svg class="form-group__icon">
+                <use xlink:href="../../assets/images/sprite.svg#check-circle"></use>
+            </svg>
+        </label>
+        <label class="form-group">
+            <input tipe="text" class="form-group__input form-group__input_invalid" disabled placeholder="Error">
+            <svg class="form-group__icon">
+                <use xlink:href="../../assets/images/sprite.svg#error"></use>
+            </svg>
+        </label>
     </body>
 </html>
