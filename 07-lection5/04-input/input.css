@@ -3,7 +3,7 @@
     position: relative;
 }
 
-.form__input {
+.form-group__input {
     width: 350px;
     Height: 56px;
     background: var(--white);
@@ -16,11 +16,11 @@
     color: var(--grey-4);
 }
 
-.form__input:focus {
+.form-group__input:focus {
     border-color: var(--primary);
 }
 
-.form__input_invalid {
+.form-group__input_invalid {
     border-color: var(--red);
 }
 
@@ -28,7 +28,7 @@
     color: var(--grey-2);
 }
 
-.form__icon {
+.form-group__icon {
     position: absolute;
     width: 24px;
     height: 24px;
@@ -36,10 +36,10 @@
     top: 15px
 }
 
-.form__input_success::placeholder {
+.form-group__input_success::placeholder {
     color: var(--grey-4);
 }
 
-.form__input_invalid::placeholder {
+.form-group__input_invalid::placeholder {
     color: var(--grey-4);
 }
