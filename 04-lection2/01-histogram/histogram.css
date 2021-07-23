@@ -6,6 +6,10 @@
     padding: 16px 24px 24px;
 }
 
+.histogram_preview {
+    width: 290px;
+}
+
 .histogram__title {
     font-family: Inter;
     font-style: normal;
