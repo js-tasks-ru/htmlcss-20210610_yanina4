@@ -42,3 +42,9 @@
 .radio__input_templates-tab:checked ~ .preview .preview__card_templates {
     display: flex;
 }
+
+@media  screen and (min-width: 768px) {
+    .tabs__scroller {
+        padding: 0;
+    }
+}
