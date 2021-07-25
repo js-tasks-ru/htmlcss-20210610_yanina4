@@ -47,3 +47,12 @@
     width: 25px;
     height: 25px;
 }
+
+.tooltip_preview {
+    margin: 0;
+    top: 20px;
+}
+
+.tooltip__menu_preview {
+    display: block;
+}

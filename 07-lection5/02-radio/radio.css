@@ -57,3 +57,9 @@
 .radio__input:disabled ~ .radio__state .radio__control {
     background: var(--grey-2);
 }
+
+.radio_preview {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
