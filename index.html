@@ -40,17 +40,20 @@
             </div>
         </header>
         <main class="page__main">
-            <div class="page__box">
-                <div class="tabs">
+            <div class="tabs">
                     <input type="radio" class="radio__input radio__input_all-tab" checked id="all-tab" name="tabs" value="1">
                     <input type="radio" class="radio__input radio__input_elements-tab" id="elements-tab" name="tabs" value="2">
                     <input type="radio" class="radio__input radio__input_container-tab" id="container-tab" name="tabs" value="3">
                     <input type="radio" class="radio__input radio__input_templates-tab" id="templates-tab" name="tabs" value="4">
-                    <div class="tabs__scroller">
-                        <label for="all-tab" class="tabs__scroller_all-tab">All components</label>
-                        <label for="elements-tab" class="tabs__scroller_elements-tab">Elements</label>
-                        <label for="container-tab" class="tabs__scroller_container-tab">Container</label>
-                        <label for="templates-tab" class="tabs__scroller_templates-tab">Templates</label>
+                    <div class="tabs__wrapper">
+                        <div class="page__box">
+                            <div class="tabs__scroller">
+                                <label for="all-tab" class="tabs__scroller_all-tab">All components</label>
+                                <label for="elements-tab" class="tabs__scroller_elements-tab">Elements</label>
+                                <label for="container-tab" class="tabs__scroller_container-tab">Container</label>
+                                <label for="templates-tab" class="tabs__scroller_templates-tab">Templates</label>
+                            </div>
+                        </div>
                     </div>
                     <div class="preview">
                         <div class="preview__card preview__card_container">
@@ -92,7 +95,20 @@
                                             </div>
                                         </label>
                                         <label class="checkbox">
-                                            <input type="checkbox" disabled class="checkbox__input" name="checkbox" value="2">
+                                            <input type="checkbox" checked class="checkbox__input" name="checkbox" value="2">
+                                            <div class="checkbox__state">
+                                                <div class="checkbox__control">
+                                                    <svg class="checkbox__icon">
+                                                        <use xlink:href="assets/images/sprite.svg#check"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="checkbox__legend">
+                                                    Checked
+                                                </div>
+                                            </div>
+                                        </label>
+                                        <label class="checkbox">
+                                            <input type="checkbox" disabled class="checkbox__input" name="checkbox" value="3">
                                             <div class="checkbox__state">
                                                 <div class="checkbox__control"></div>
                                                 <div class="checkbox__legend">
@@ -118,7 +134,20 @@
                                             </div>
                                         </label>
                                         <label class="radio">
-                                            <input type="radio" disabled class="radio__input" name="radio" value="2">
+                                            <input type="radio" class="radio__input" checked name="radio" value="2">
+                                            <div class="radio__state">
+                                                <div class="radio__control">
+                                                    <svg class="radio__icon">
+                                                        <use xlink:href="assets/images/sprite.svg#circle"></use>
+                                                    </svg>
+                                                </div>
+                                                <div class="radio__legend">
+                                                    Checked
+                                                </div>
+                                            </div>
+                                        </label>
+                                        <label class="radio">
+                                            <input type="radio" disabled class="radio__input" name="radio" value="3">
                                             <div class="radio__state">
                                                 <div class="radio__control"></div>
                                                 <div class="radio__legend">

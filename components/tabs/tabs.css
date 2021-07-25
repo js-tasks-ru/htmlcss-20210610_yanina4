@@ -1,3 +1,9 @@
+.tabs__wrapper {
+    background-color: var(--white);
+    border-bottom: 1px solid var(--grey-2);
+    padding: 0 16px;
+}
+
 .tabs__scroller {
     display: flex;
     gap: 40px;
@@ -7,22 +13,21 @@
     color: var(--grey-3);
     position: relative;
     white-space: nowrap;
-    bottom: 37px;
 }
 
-.radio__input_all-tab:checked ~ .tabs__scroller .tabs__scroller_all-tab,
-.radio__input_elements-tab:checked ~ .tabs__scroller .tabs__scroller_elements-tab,
-.radio__input_container-tab:checked ~ .tabs__scroller .tabs__scroller_container-tab,
-.radio__input_templates-tab:checked ~ .tabs__scroller .tabs__scroller_templates-tab{
+.radio__input_all-tab:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_all-tab,
+.radio__input_elements-tab:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_elements-tab,
+.radio__input_container-tab:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_container-tab,
+.radio__input_templates-tab:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_templates-tab{
     color: var(--black);
     border-bottom: 5px solid var(--black);
     padding-bottom: 8px;
 }
 
-.radio__input_all-tab:hover ~ .tabs__scroller .tabs__scroller_all-tab,
-.radio__input_elements-tab:hover ~ .tabs__scroller .tabs__scroller_elements-tab,
-.radio__input_container-tab:hover ~ .tabs__scroller .tabs__scroller_container-tab,
-.radio__input_templates-tab:hover ~ .tabs__scroller .tabs__scroller_templates-tab{
+.radio__input_all-tab:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_all-tab,
+.radio__input_elements-tab:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_elements-tab,
+.radio__input_container-tab:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_container-tab,
+.radio__input_templates-tab:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_templates-tab{
     cursor: pointer;
 }
 
