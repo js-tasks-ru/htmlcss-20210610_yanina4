@@ -1,29 +1,27 @@
 .background {
-    max-width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
+  max-width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 @media (max-width: 400px) {
-    .background {
-        background-image:url(./public/forest_400.jpg);
-    } 
+  .background {
+    background-image: url(./public/forest_400.jpg);
+  }
 }
-
 @media (min-width: 401px) and (max-width: 800px) {
-    .background {
-        background-image:url(./public/forest_768.jpg);
-    }
+  .background {
+    background-image: url(./public/forest_768.jpg);
+  }
 }
-
 @media (min-width: 801px) and (max-width: 1100px) {
-    .background {
-        background-image:url(./public/forest_1024.jpg);
-    }
+  .background {
+    background-image: url(./public/forest_1024.jpg);
+  }
+}
+@media (min-width: 1100px) {
+  .background {
+    background-image: url(./public/forest_2560.jpg);
+  }
 }
 
-@media (min-width: 1100px) {
-    .background {
-        background-image:url(./public/forest_2560.jpg);
-    }
-}
+/*# sourceMappingURL=background-image.css.map */

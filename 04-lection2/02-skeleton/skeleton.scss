@@ -1,0 +1,50 @@
+.skeleton {
+    background-color: var(--white);
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    &__circle {
+        background: var(--grey-2);
+        width: 64px;
+        height: 64px;
+        border-radius: 32px;
+        margin: 24px;
+        margin-right: 16px;
+    }
+    
+    &__line {
+        background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+        height: 20px;
+    }
+    
+    &__lines {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-bottom: 32px;
+    }
+    
+    &__lines_1 {
+        padding-top: 32px;
+        width: 82%;
+    }
+    
+    &__lines_2 {
+        padding-left: 24px;
+        width: 89%;
+    }
+    
+    &__line_1 {
+        width: 30%;
+    }
+    
+    &__line_2 {
+        width: 44%;
+    }
+    
+    &__header {
+        display: flex;
+        width: 100%;
+    }
+}

@@ -1,64 +1,56 @@
-/* .modal {
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: var(--modal-background);
-    display: none;
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--modal-background);
+  display: none;
 }
-.modal_preview {
-    display: block;
-} */
-
 .modal__window {
-    width: 428px;
-    background: var(--white);
-    border-radius: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 428px;
+  background: var(--white);
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
 .modal__window_preview {
-    border: 1px solid var(--grey-3);
-    max-width: 290px;
+  border: 1px solid var(--grey-3);
+  max-width: 290px;
 }
-
 .modal__content {
-    position: relative;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--grey-4);
-    padding: 15px 40px 40px 33px;
+  position: relative;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--grey-4);
+  padding: 15px 40px 40px 33px;
 }
-
 .modal__content_preview {
-    font-size: 10px;
-    line-height: 16px;
-    padding: 10px 27px 27px 22px;
+  font-size: 10px;
+  line-height: 16px;
+  padding: 10px 27px 27px 22px;
 }
-
 .modal__title {
-    padding-bottom: 14px;
-    font-weight: 600;
-    font-size: 20px;
-    padding-top: 15px;
+  padding-bottom: 14px;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 15px;
 }
-
 .modal__title_preview {
-    padding-bottom: 9px;
-    font-size: 13px;
-    padding-top: 10px;
+  padding-bottom: 9px;
+  font-size: 13px;
+  padding-top: 10px;
+}
+.modal__icon {
+  position: absolute;
+  right: 15px;
+  width: 25px;
+  height: 25px;
 }
 
-.modal__icon {
-    position: absolute;
-    right: 15px;
-    width: 25px;
-    height: 25px;
-}
+/*# sourceMappingURL=modal.css.map */

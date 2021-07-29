@@ -1,0 +1,52 @@
+/* Стилизация кнопки */
+@mixin button ($background:false, $color:falce, $border-color:false) {
+    font-family: 'roboto', 'sans serif';
+    @if $background {background: $background}
+    @if $color {color: $color}
+    @if $border-color {border-color: $border-color}
+}
+
+.button{
+    cursor: pointer;
+    Height: 48px;
+    border-radius: 8px;
+    padding: 15px 20px 14px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid;
+
+    &:disabled{
+        opacity: 0.5;
+        cursor:default;
+        pointer-events: none;
+    }    
+
+    &_primery{
+        @include button (var(--primary), var(--white), var(--primary));
+
+        &:hover{
+            background: var(--primery-active);
+            border-color: var(--primery-active);
+        }
+    }
+
+    &_secondary{
+        @include button (var(--secondary), var(--white), var(--secondary));
+
+        &:hover{
+            background: var(--secondary-active);
+            border-color: var(--secondary-active);
+        }
+    }
+
+    &_alternate{
+        @include button (var(--white), var(--grey-4), var(--grey-3));
+
+        &:hover{
+            border-color: var(--black);
+        }
+    }
+}
