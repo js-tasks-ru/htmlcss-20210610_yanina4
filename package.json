@@ -4,7 +4,9 @@
   "description": "Course Materials",
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --no-warnings --ignore=node_modules/** **/*.test.js",
-    "build": "postcss assets/css/main.scss -o build/index.css"
+    "build": "postcss assets/css/main.scss -o build/index.css",
+    "stylelint": "stylelint --fix **/*.scss",
+    "prettier": "prettier --fix **/*.scss"
   },
   "husky": {
     "hooks": {
@@ -34,11 +36,12 @@
     "postcss-scss": "^4.0.0",
     "postcss-strip-inline-comments": "^0.1.5",
     "precss": "^4.0.0",
-    "sass": "^1.36.0"
+    "prettier": "2.3.2",
+    "sass": "^1.36.0",
+    "stylelint": "^13.13.1"
   },
   "dependencies": {
     "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1"
+    "lint-staged": "^10.5.4"
   }
 }

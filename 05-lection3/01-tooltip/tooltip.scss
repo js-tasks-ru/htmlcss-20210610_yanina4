@@ -19,7 +19,7 @@
         border-radius: 10px;
         position: absolute;
         left: 50%;
-        transform: translate(-50%,-80px);
+        transform: translate(-50%, -80px);
         display: none;
         font-family: Inter;
         font-size: 16px;
@@ -32,12 +32,12 @@
         }
     
         &:after {
-            content: "";
+            content: '';
             border: 14px solid transparent;
             border-top: 6px solid var(--primary);
             position: absolute;
             left: 50%;
-            transform:translate(-50%, 100%);
+            transform: translate(-50%, 100%);
         }
     }
     

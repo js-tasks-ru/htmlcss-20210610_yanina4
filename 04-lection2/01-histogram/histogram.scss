@@ -18,13 +18,13 @@
     
     &__title {
         font-family: Inter;
-        opacity: 0.8;
+        opacity: .8;
         @include text (16px, var(--black), 24px);
     }
     
     &__inner {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
     }
     
     &__link {

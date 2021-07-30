@@ -1,7 +1,7 @@
 .card {
     padding: 32px;
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     text-decoration: none;
 
@@ -11,7 +11,7 @@
         justify-content: center;
         flex-grow: 1;
         position: relative;
-        gap:42px;
+        gap: 42px;
     }
 
     &__footer {

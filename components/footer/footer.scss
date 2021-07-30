@@ -2,8 +2,8 @@
     display: none;
 
     @media  screen and (min-width: 768px) {
-            display: block;
-            background-color: var(--white);
+        display: block;
+        background-color: var(--white);
     
         &__title {
             font-family: Inter;
@@ -32,7 +32,7 @@
                 font-weight: 500;
                 font-size: 12px;
                 line-height: 18px;
-                letter-spacing: 0.04em;
+                letter-spacing: .04em;
                 text-transform: uppercase;
                 color: var(--grey-3);
                 padding-bottom: 56px;
