@@ -1,9 +1,10 @@
 .tabs__wrapper {
   background-color: var(--white);
   border-bottom: 1px solid var(--grey-2);
+}
+.tabs__wrapper_padding {
   padding: 0 16px;
 }
-
 .tabs__scroller {
   display: flex;
   gap: 40px;
@@ -14,36 +15,45 @@
   position: relative;
   white-space: nowrap;
 }
+.tabs__scroller_component {
+  padding: 0 48px;
+}
+.tabs__content {
+  padding: 50px 106px 64px 42px;
+}
+.tabs__content_1, .tabs__content_2 {
+  display: none;
+}
 
-.radio__input_all-tab:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_all-tab,
-.radio__input_elements-tab:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_elements-tab,
-.radio__input_container-tab:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_container-tab,
-.radio__input_templates-tab:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_templates-tab {
+.radio__input_1:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_1,
+.radio__input_2:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_2,
+.radio__input_3:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_3,
+.radio__input_4:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_4 {
   color: var(--black);
   border-bottom: 5px solid var(--black);
   padding-bottom: 8px;
 }
 
-.radio__input_all-tab:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_all-tab,
-.radio__input_elements-tab:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_elements-tab,
-.radio__input_container-tab:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_container-tab,
-.radio__input_templates-tab:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_templates-tab {
+.radio__input_1:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_1,
+.radio__input_2:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_2,
+.radio__input_3:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_3,
+.radio__input_4:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_4 {
   cursor: pointer;
 }
 
-.radio__input_all-tab:checked ~ .preview .preview__card {
+.radio__input_1:checked ~ .preview .preview__card {
   display: flex;
 }
 
-.radio__input_elements-tab:checked ~ .preview .preview__card_elements {
+.radio__input_2:checked ~ .preview .preview__card_elements {
   display: flex;
 }
 
-.radio__input_container-tab:checked ~ .preview .preview__card_container {
+.radio__input_3:checked ~ .preview .preview__card_container {
   display: flex;
 }
 
-.radio__input_templates-tab:checked ~ .preview .preview__card_templates {
+.radio__input_4:checked ~ .preview .preview__card_templates {
   display: flex;
 }
 

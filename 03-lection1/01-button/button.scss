@@ -1,6 +1,5 @@
 /* Стилизация кнопки */
 @mixin button ($background:false, $color:falce, $border-color:false) {
-    font-family: 'roboto', 'sans serif';
     @if $background {background: $background}
     @if $color {color: $color}
     @if $border-color {border-color: $border-color}
@@ -8,7 +7,7 @@
 
 .button{
     cursor: pointer;
-    Height: 48px;
+    height: 48px;
     border-radius: 8px;
     padding: 15px 20px 14px;
     text-align: center;

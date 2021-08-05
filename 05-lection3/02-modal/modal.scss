@@ -6,6 +6,7 @@
     height: 100vh;
     background: var(--modal-background);
     display: none;
+    z-index: 1;
 
     &__window {
         width: 428px;

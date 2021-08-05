@@ -22,7 +22,7 @@
     }
 
     @media  screen and (min-width: 768px) {
-        padding: 0 16px;
+        padding: 24px 16px 0 16px;
 
         &__title {
             font-weight: 500;
@@ -37,7 +37,6 @@
             justify-content: space-between;
             align-items: center;
             border-bottom: 0;
-            margin-top: 24px;
         }
         
         &_component {

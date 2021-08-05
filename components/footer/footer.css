@@ -35,7 +35,7 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--grey-3);
-    padding-bottom: 56px;
+    padding: 56px 0;
   }
   .footer_component {
     background: var(--background-layout);
