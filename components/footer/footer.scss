@@ -26,7 +26,6 @@
             color: var(--black);
             width: 640px;
             margin: 0 auto;
-            margin-bottom: 136px;
 
             &_component {
                 font-weight: 500;
@@ -35,7 +34,7 @@
                 letter-spacing: .04em;
                 text-transform: uppercase;
                 color: var(--grey-3);
-                padding: 56px 0;
+                padding-bottom: 56px;
             }
         }
     
