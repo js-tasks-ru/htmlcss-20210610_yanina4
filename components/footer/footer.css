@@ -26,7 +26,7 @@
     color: var(--black);
     width: 640px;
     margin: 0 auto;
-    margin-bottom: 136px;
+    padding-bottom: 136px;
   }
   .footer__description_component {
     font-weight: 500;

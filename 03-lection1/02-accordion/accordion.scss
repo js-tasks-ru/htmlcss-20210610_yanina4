@@ -1,58 +1,60 @@
 /* Стилизация аккордеона */
-.accordion__summary{
-    display: block;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    color: var(--black);
-    display: flex;
-    justify-content: space-between;
-
-    &::-webkit-details-marker {
-        display: none;
-    }  
-}
-
-.accordion__item {
-    width: 730px;
-    border: 1px solid var(--grey-3);
-    box-sizing: border-box;
-    border-radius: 8px;
-    margin-bottom: 8px;
-
-    &:last-child {
-        margin-bottom: 0;
+.accordion {
+    &__summary{
+        display: block;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        color: var(--black);
+        display: flex;
+        justify-content: space-between;
+    
+        &::-webkit-details-marker {
+            display: none;
+        }  
     }
-
-    &:hover .accordion__icon {
-        transform: rotate(180deg);
+    
+    &__item {
+        width: 730px;
+        border: 1px solid var(--grey-3);
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin-bottom: 8px;
+    
+        &:last-child {
+            margin-bottom: 0;
+        }
+    
+        &:hover .accordion__icon {
+            transform: rotate(180deg);
+        }
     }
-}
-
-.accordion__description {
-    box-sizing: border-box;
-    font-family: Inter;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--grey-4);
-    padding-left: 32px;
-    padding-right: 48px;
-    padding-bottom: 32px;
-    margin: 0;
-}
-
-.accordion__icon {
-    width: 25px;
-    height: 25px;
-
-    &_rotate {
-        position: absolute;
-        transform: rotate(180deg);
-    }   
+    
+    &__description {
+        box-sizing: border-box;
+        font-family: Inter;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--grey-4);
+        padding-left: 32px;
+        padding-right: 48px;
+        padding-bottom: 32px;
+        margin: 0;
+    }
+    
+    &__icon {
+        width: 25px;
+        height: 25px;
+    
+        &_rotate {
+            position: absolute;
+            transform: rotate(180deg);
+        }   
+    }
 }

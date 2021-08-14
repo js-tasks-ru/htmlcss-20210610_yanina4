@@ -1,8 +1,8 @@
 /* Стилизация кнопки */
-@mixin button ($background:false, $color:falce, $border-color:false) {
-    @if $background {background: $background}
-    @if $color {color: $color}
-    @if $border-color {border-color: $border-color}
+@mixin button ($background, $color, $border-color) {
+    background: $background;
+    color: $color;
+    border-color: $border-color;
 }
 
 .button{
@@ -24,7 +24,7 @@
     }    
 
     &_primery{
-        @include button (var(--primary), var(--white), var(--primary));
+        @include button ($primary, $white, $primary);
 
         &:hover{
             background: var(--primery-active);
@@ -33,7 +33,7 @@
     }
 
     &_secondary{
-        @include button (var(--secondary), var(--white), var(--secondary));
+        @include button ($secondary, $white, $secondary);
 
         &:hover{
             background: var(--secondary-active);
@@ -42,7 +42,7 @@
     }
 
     &_alternate{
-        @include button (var(--white), var(--grey-4), var(--grey-3));
+        @include button ($white, $grey-4, $grey-3);
 
         &:hover{
             border-color: var(--black);
