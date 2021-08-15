@@ -1,0 +1,72 @@
+.tabs{
+    &__wrapper {
+        background-color: var(--white);
+        border-bottom: 1px solid var(--grey-2);
+
+        &_padding {
+            padding: 0 16px;
+        }
+    }
+    
+    &__scroller {
+        display: flex;
+        gap: 40px;
+        font-family: Inter;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--grey-3);
+        position: relative;
+        white-space: nowrap;
+    
+        &_component {
+            padding: 0 48px;
+        }
+    }
+
+    &__content {
+        padding: 50px 106px 64px 42px;
+
+        &_1, &_2 {
+            display: none;
+        }
+    }
+}
+.radio__input_1:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_1,
+.radio__input_2:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_2,
+.radio__input_3:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_3,
+.radio__input_4:checked ~ .tabs__wrapper .tabs__scroller .tabs__scroller_4{
+    color: var(--black);
+    border-bottom: 5px solid var(--black);
+    padding-bottom: 8px;
+}
+
+.radio__input_1:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_1,
+.radio__input_2:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_2,
+.radio__input_3:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_3,
+.radio__input_4:hover ~ .tabs__wrapper .tabs__scroller .tabs__scroller_4{
+    cursor: pointer;
+}
+
+.radio__input_1:checked ~ .preview .preview__card {
+    display: flex;
+}
+
+.radio__input_2:checked ~ .preview .preview__card_elements {
+    display: flex;
+}
+
+.radio__input_3:checked ~ .preview .preview__card_container {
+    display: flex;
+}
+
+.radio__input_4:checked ~ .preview .preview__card_templates {
+    display: flex;
+}
+
+.radio__input_1:checked ~ .tabs__content .tabs__content_1 {
+    display: block;
+}
+
+.radio__input_2:checked ~ .tabs__content .tabs__content_2 {
+    display: block;
+}

@@ -1,0 +1,45 @@
+.form-group {
+    display: inline-block;
+    position: relative;
+
+    &__input {
+        width: 350px;
+        Height: 56px;
+        background: var(--white);
+        border: 1px solid var(--grey-2);
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 17px 40px 13px 24px;
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--grey-4);
+
+        &::placeholder  {
+            color: var(--grey-2);
+        } 
+
+        &:focus {
+            border-color: var(--primary);
+        }
+    
+        &_invalid {
+            border-color: var(--red);
+        }
+
+        &_success::placeholder {
+            color: var(--grey-4);
+        }
+    
+        &_invalid::placeholder {
+            color: var(--grey-4);
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        right: 15px;
+        top: 15px
+    }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="../build/index.css">
+    </head>
+    <body class="page_component">
+        <header class="header header_component">
+            <div class="page__box header__container">
+                <div class="header__logo">
+                    <a href="../index.html">
+                        <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="1" width="30" height="30" fill="#212429"/>
+                            <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                            <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+                        </svg>                            
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav__link">Components</a>
+                    <a href="#" class="nav__link">About</a>
+                    <a href="#" class="nav__link">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="page__main_component">
+            <div class="page__box">
+                <div class="page__inner">
+                    <div>
+                        <div class="menu">
+                            <p class="menu__list_chapter">Elements</p>
+                            <a href="custom form elements.html" class="menu__list menu__list_link">Custom form elements</a>
+                            <a href="histogram.html" class="menu__list menu__list_link">Histogram</a>
+                            <a href="avatar.html" class="menu__list menu__list_link">Avatar</a>
+                            <p class="menu__list_chapter">Containers</p>
+                            <a href="tooltip.html" class="menu__list menu__list_link">Tooltip</a>
+                            <a href="calendar.html" class="menu__list menu__list_link">Calendar</a>
+                            <a href="modal dialog.html" class="menu__list menu__list_link">Modal dialog</a>
+                            <p class="menu__list_chapter">Templates</p>
+                        </div>    
+                    </div>
+                    <div class="component">
+                        <div class="component__inner">
+                            <h3 class="component__title">Avatar</h3>
+                            <div class="avatar">
+                                <img class="avatar__img" src="../assets/images/avatar-200.jpg" alt="avatar">
+                            </div>
+                        </div>
+                        <div class="tabs">
+                            <input type="radio" class="radio__input radio__input_1" checked id="html" name="tabs-component" value="1">
+                            <input type="radio" class="radio__input radio__input_2" id="css" name="tabs-component" value="2">
+                            <div class="tabs__wrapper">
+                                <div class="tabs__scroller tabs__scroller_component">
+                                    <label for="html" class="tabs__scroller_1">HTML</label>
+                                    <label for="css" class="tabs__scroller_2">CSS</label>
+                                </div>
+                            </div>
+                            <div class="tabs__content">
+                                <div class="tabs__content_1">
+                                    <pre>
+                                        <code>
+&lt;div class="avatar"&gt;
+    &lt;img class="avatar__img" src="avatar-200.jpg" alt="avatar"&gt;
+&lt;/div&gt;
+                                        </code>
+                                    </pre>
+                                </div>
+                                <div class="tabs__content_2">
+                                    <pre>
+                                        <code>
+.avatar {
+  height: 102px;
+  width: 102px;
+}
+.avatar_preview {
+  height: 160px;
+  width: 160px;
+}
+.avatar__img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer footer_component">
+            <div class="page__box">
+                <p class="footer__description footer__description_component">Reusable component library</p>
+            </div>
+        </div>
+    </body>

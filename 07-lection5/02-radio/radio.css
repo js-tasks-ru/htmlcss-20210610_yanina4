@@ -1,65 +1,57 @@
 .radio {
-    display: inline-block;
+  display: inline-block;
 }
-
 .radio__input {
-    opacity: 0;
-    width: 1px;
-    height: 1px;
-    pointer-events: none;
-    position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+  position: absolute;
 }
-
-.radio__state {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.radio__control {
-    width: 28px;
-    height: 28px;
-    background: var(--white);
-    border: 1px solid var(--grey-2);
-    box-sizing: border-box;
-    border-radius: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.radio__legend {
-    font-family: Inter;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--grey-4);
-    margin-left: 12px;
-}
-
-.radio__icon {
-    display: none;
-    width: 18px;
-    height: 18px;
-}
-
 .radio__input:checked ~ .radio__state .radio__control {
-    border: 2px solid var(--primary);
+  border: 2px solid var(--primary);
 }
-
 .radio__input:checked ~ .radio__state .radio__icon {
-    display: block;
+  display: block;
 }
-
 .radio__input:focus ~ .radio__state .radio__legend {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 .radio__input:disabled ~ .radio__state .radio__control {
-    background: var(--grey-2);
+  background: var(--grey-2);
+}
+.radio__state {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.radio__control {
+  width: 28px;
+  height: 28px;
+  background: var(--white);
+  border: 1px solid var(--grey-2);
+  box-sizing: border-box;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.radio__legend {
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--grey-4);
+  margin-left: 12px;
+}
+.radio__icon {
+  display: none;
+  width: 18px;
+  height: 18px;
+}
+.radio_preview {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-.radio_preview {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
+/*# sourceMappingURL=radio.css.map */

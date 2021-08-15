@@ -1,0 +1,51 @@
+/* Стилизация кнопки */
+@mixin button ($background, $color, $border-color) {
+    background: $background;
+    color: $color;
+    border-color: $border-color;
+}
+
+.button{
+    cursor: pointer;
+    height: 48px;
+    border-radius: 8px;
+    padding: 15px 20px 14px;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: 1px solid;
+
+    &:disabled{
+        opacity: .5;
+        cursor: default;
+        pointer-events: none;
+    }    
+
+    &_primery{
+        @include button ($primary, $white, $primary);
+
+        &:hover{
+            background: var(--primery-active);
+            border-color: var(--primery-active);
+        }
+    }
+
+    &_secondary{
+        @include button ($secondary, $white, $secondary);
+
+        &:hover{
+            background: var(--secondary-active);
+            border-color: var(--secondary-active);
+        }
+    }
+
+    &_alternate{
+        @include button ($white, $grey-4, $grey-3);
+
+        &:hover{
+            border-color: var(--black);
+        }
+    }
+}

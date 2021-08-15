@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
     <head>
+        <link rel="stylesheet" href="./build/index.css">
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/main.css">
         <link rel="stylesheet" href="./components/page/page.css">
@@ -9,6 +10,7 @@
         <link rel="stylesheet" href="./components/menu/menu.css">
         <link rel="stylesheet" href="./components/component/component.css">
         <link rel="stylesheet" href="./components/footer/footer.css">
+        <link rel="stylesheet" href="./components/tabs/tabs.css">
     </head>
     <body class="page_component">
         <header class="header header_component">
@@ -21,7 +23,7 @@
                         </svg>                        
                 </div>
                 <nav class="nav">
-                    <a href="#" class="nav__link nav__link_black">Components</a>
+                    <a href="#" class="nav__link">Components</a>
                     <a href="#" class="nav__link">About</a>
                     <a href="#" class="nav__link">Contact</a>
                 </nav>
@@ -31,29 +33,34 @@
             <div class="page__box">
                 <div class="page__inner">
                     <div class="menu">
-                        <p class="menu__list menu__list_chapter">Elements</p>
-                        <a href="#" class="menu__list menu__list_link">Avatar</a>
+                        <p class="menu__list_chapter">Elements</p>
                         <a href="#" class="menu__list menu__list_link">Custom form elements</a>
-                        <a href="#" class="menu__list menu__list_link">Button</a>
+                        <a href="#" class="menu__list menu__list_link">Histogram</a>
                         <a href="#" class="menu__list menu__list_link">Avatar</a>
-                        <a href="#" class="menu__list menu__list_link">Custom form elements</a>
-                        <a href="#" class="menu__list menu__list_link">Button</a>
                         <p class="menu__list_chapter">Containers</p>
-                        <a href="#" class="menu__list menu__list_link">Avatar</a>
-                        <a href="#" class="menu__list menu__list_link">Custom form elements</a>
-                        <a href="#" class="menu__list menu__list_link">Button</a>
-                        <a href="#" class="menu__list menu__list_link">Avatar</a>
-                        <a href="#" class="menu__list menu__list_link">Custom form elements</a>
-                        <a href="#" class="menu__list menu__list_link">Button</a>
+                        <a href="#" class="menu__list menu__list_link">Tooltip</a>
+                        <a href="#" class="menu__list menu__list_link">Calendar</a>
+                        <a href="#" class="menu__list menu__list_link">Modal dialog</a>
                         <p class="menu__list_chapter">Templates</p>
-                        <a href="#" class="menu__list menu__list_link">Avatar</a>
-                        <a href="#" class="menu__list menu__list_link">Custom form elements</a>
-                        <a href="#" class="menu__list menu__list_link">Button</a>
-                        <a href="#" class="menu__list menu__list_link">Avatar</a>
-                        <a href="#" class="menu__list menu__list_link">Custom form elements</a>
-                        <a href="#" class="menu__list menu__list_link">Button</a>
                     </div>
-                    <div class="component"></div>
+                    <div class="component">
+                        <div class="component__inner">
+                            <h3 class="component__title"></h3>
+                            
+
+                        </div>
+                        <div class="tabs">
+                            <input type="radio" class="radio__input radio__input_1" checked id="html" name="tabs-component" value="1">
+                            <input type="radio" class="radio__input radio__input_2" id="css" name="tabs-component" value="2">
+                            <div class="tabs__wrapper">
+                                <div class="tabs__scroller tabs__scroller_component">
+                                    <label for="html" class="tabs__scroller_1">HTML</label>
+                                    <label for="css" class="tabs__scroller_2">CSS</label>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

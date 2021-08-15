@@ -1,61 +1,54 @@
 .histogram {
-    background: var(--white);
-    border: 1px solid var(--grey-3);
-    box-sizing: border-box;
-    border-radius: 8px;
-    padding: 16px 24px 24px;
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 16px 24px 24px;
 }
-
 .histogram_preview {
-    width: 290px;
+  width: 290px;
 }
-
 .histogram__title {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--black);
-    opacity: 0.8;
+  font-family: Inter;
+  opacity: 0.8;
+  font-family: "roboto", "sans serif";
+  font-size: 16px;
+  color: var(--black);
+  line-height: 24px;
 }
-
 .histogram__inner {
-    display: flex;
-    justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
-
 .histogram__link {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: right;
-    color: var(--primary);
-    padding-top: 3px;
+  font-family: Inter;
+  text-align: right;
+  padding-top: 3px;
+  font-family: "roboto", "sans serif";
+  font-size: 16px;
+  color: var(--primary);
+  line-height: 24px;
 }
-
 .histogram__number {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-    color: var(--black);
-    padding-top: 6px;
+  font-family: Inter;
+  color: var(--black);
+  padding-top: 6px;
+  font-family: "roboto", "sans serif";
+  font-size: 20px;
+  color: var(--black);
+  line-height: 26px;
 }
-
 .histogram__chart {
-    display: flex;
-    align-items: flex-end;
-    gap: 1px;
-    position: relative;
-    height: 50px;
-    padding-top: 39px;
+  display: flex;
+  align-items: flex-end;
+  gap: 1px;
+  position: relative;
+  height: 50px;
+  padding-top: 39px;
+}
+.histogram__column {
+  flex-grow: 1;
+  background: var(--primary);
 }
 
-.histogram__column {
-    flex-grow: 1;
-    background: var(--primary);
-}
+/*# sourceMappingURL=histogram.css.map */

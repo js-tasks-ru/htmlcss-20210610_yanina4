@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="../build/index.css">
+    </head>
+    <body class="page_component">
+        <header class="header header_component">
+            <div class="page__box header__container">
+                <div class="header__logo">
+                    <a href="../index.html">
+                        <svg width="110" height="32" viewBox="0 0 110 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="1" width="30" height="30" fill="#212429"/>
+                            <rect x="38" width="32" height="32" rx="16" fill="#212429"/>
+                            <path d="M78 0L110 32H78V0Z" fill="#212429"/>
+                        </svg>                            
+                    </a>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav__link">Components</a>
+                    <a href="#" class="nav__link">About</a>
+                    <a href="#" class="nav__link">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="page__main_component">
+            <div class="page__box">
+                <div class="page__inner">
+                    <div>
+                        <div class="menu">
+                            <p class="menu__list_chapter">Elements</p>
+                            <a href="custom form elements.html" class="menu__list menu__list_link">Custom form elements</a>
+                            <a href="histogram.html" class="menu__list menu__list_link">Histogram</a>
+                            <a href="avatar.html" class="menu__list menu__list_link">Avatar</a>
+                            <p class="menu__list_chapter">Containers</p>
+                            <a href="tooltip.html" class="menu__list menu__list_link">Tooltip</a>
+                            <a href="calendar.html" class="menu__list menu__list_link">Calendar</a>
+                            <a href="modal dialog.html" class="menu__list menu__list_link">Modal dialog</a>
+                            <p class="menu__list_chapter">Templates</p>
+                        </div>    
+                    </div>
+                    <div class="component">
+                        <div class="component__inner">
+                            <h3 class="component__title">Histogram</h3>
+                            <div class="histogram">
+                                <div class="histogram__inner">
+                                    <h5 class="histogram__title">Total orders</h5>
+                                    <a class="histogram__link">View all</a>
+                                </div>
+                                <p class="histogram__number">50254</p>
+                                <div class="histogram__chart">
+                                    <div class="histogram__column" style="height: 100%"></div>
+                                    <div class="histogram__column" style="height: 70%"></div>
+                                    <div class="histogram__column" style="height: 44%"></div>
+                                    <div class="histogram__column" style="height: 35%"></div>
+                                    <div class="histogram__column" style="height: 44%"></div>
+                                    <div class="histogram__column" style="height: 60%"></div>
+                                    <div class="histogram__column" style="height: 35%"></div>
+                                    <div class="histogram__column" style="height: 100%"></div>
+                                    <div class="histogram__column" style="height: 22%"></div>
+                                    <div class="histogram__column" style="height: 44%"></div>
+                                    <div class="histogram__column" style="height: 78%"></div>
+                                    <div class="histogram__column" style="height: 70%"></div>
+                                    <div class="histogram__column" style="height: 22%"></div>
+                                    <div class="histogram__column" style="height: 100%"></div>
+                                    <div class="histogram__column" style="height: 22%"></div>
+                                    <div class="histogram__column" style="height: 70%"></div>
+                                    <div class="histogram__column" style="height: 78%"></div>
+                                    <div class="histogram__column" style="height: 22%"></div>
+                                    <div class="histogram__column" style="height: 70%"></div>
+                                    <div class="histogram__column" style="height: 70%"></div>
+                                    <div class="histogram__column" style="height: 90%"></div>
+                                    <div class="histogram__column" style="height: 60%"></div>
+                                    <div class="histogram__column" style="height: 22%"></div>
+                                    <div class="histogram__column" style="height: 60%"></div>
+                                    <div class="histogram__column" style="height: 22%"></div>
+                                    <div class="histogram__column" style="height: 70%"></div>
+                                    <div class="histogram__column" style="height: 34%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs">
+                            <input type="radio" class="radio__input radio__input_1" checked id="html" name="tabs-component" value="1">
+                            <input type="radio" class="radio__input radio__input_2" id="css" name="tabs-component" value="2">
+                            <div class="tabs__wrapper">
+                                <div class="tabs__scroller tabs__scroller_component">
+                                    <label for="html" class="tabs__scroller_1">HTML</label>
+                                    <label for="css" class="tabs__scroller_2">CSS</label>
+                                </div>
+                            </div>
+                            <div class="tabs__content">
+                                <div class="tabs__content_1">
+                                    <pre>
+                                        <code>
+&lt;div class="histogram"&gt;
+    &lt;div class="histogram__inner"&gt;
+        &lt;h5 class="histogram__title"&gt;Total orders&lt;/h5&gt;
+        &lt;a class="histogram__link"&gt;View all&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;p class="histogram__number"&gt;50254&lt;/p&gt;
+    &lt;div class="histogram__chart"&gt;
+        &lt;div class="histogram__column" style="height: 100%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 70%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 44%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 35%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 44%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 60%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 35%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 100%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 22%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 44%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 78%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 70%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 22%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 100%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 22%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 70%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 78%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 22%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 70%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 70%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 90%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 60%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 22%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 60%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 22%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 70%"&gt;&lt;/div&gt;
+        &lt;div class="histogram__column" style="height: 34%"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+                                        </code>
+                                    </pre>
+                                </div>
+                                <div class="tabs__content_2">
+                                    <pre>
+                                        <code>
+.histogram {
+  background: var(--white);
+  border: 1px solid var(--grey-3);
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 16px 24px 24px;
+}
+.histogram_preview {
+  width: 290px;
+}
+.histogram__title {
+  font-family: Inter;
+  opacity: 0.8;
+  font-family: "roboto", "sans serif";
+  font-size: 16px;
+  color: var(--black);
+  line-height: 24px;
+}
+.histogram__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.histogram__link {
+  font-family: Inter;
+  text-align: right;
+  padding-top: 3px;
+  font-family: "roboto", "sans serif";
+  font-size: 16px;
+  color: var(--primary);
+  line-height: 24px;
+}
+.histogram__number {
+  font-family: Inter;
+  color: var(--black);
+  padding-top: 6px;
+  font-family: "roboto", "sans serif";
+  font-size: 20px;
+  color: var(--black);
+  line-height: 26px;
+}
+.histogram__chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 1px;
+  position: relative;
+  height: 50px;
+  padding-top: 39px;
+}
+.histogram__column {
+  flex-grow: 1;
+  background: var(--primary);
+}
+                                        </code>
+                                    </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer footer_component">
+            <div class="page__box">
+                <p class="footer__description footer__description_component">Reusable component library</p>
+            </div>
+        </div>
+    </body>
