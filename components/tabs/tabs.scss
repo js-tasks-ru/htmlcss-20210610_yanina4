@@ -19,12 +19,21 @@
         white-space: nowrap;
     
         &_component {
+            padding: 0 16px;
+
+            @media  screen and (min-width: 768px) {
             padding: 0 48px;
+            }
         }
     }
 
     &__content {
-        padding: 50px 106px 64px 42px;
+        padding: 22px 0 15px 16px;
+
+        @media  screen and (min-width: 768px) {
+            padding: 50px 42px 64px 42px;
+            overflow-x: auto;
+        }
 
         &_1, &_2 {
             display: none;

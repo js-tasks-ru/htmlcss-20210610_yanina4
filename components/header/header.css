@@ -1,6 +1,6 @@
 .header {
   background-color: var(--white);
-  padding: 16px 16px 0px 16px;
+  padding: 16px;
 }
 .header__logo {
   display: flex;
@@ -16,7 +16,6 @@
 .header_component {
   background: var(--background-layout);
   border-bottom: 0;
-  padding: 16px;
 }
 @media screen and (min-width: 768px) {
   .header {
