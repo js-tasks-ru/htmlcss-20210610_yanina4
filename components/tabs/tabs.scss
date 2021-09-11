@@ -2,6 +2,8 @@
     &__wrapper {
         background-color: var(--white);
         border-bottom: 1px solid var(--grey-2);
+        overflow: hidden;
+        overflow-x: auto;
 
         &_padding {
             padding: 0 16px;
@@ -28,15 +30,16 @@
     }
 
     &__content {
-        padding: 22px 0 15px 16px;
+        padding: 22px;
 
         @media  screen and (min-width: 768px) {
             padding: 50px 42px 64px 42px;
-            overflow-x: auto;
         }
 
         &_1, &_2 {
             display: none;
+            overflow: hidden;
+            overflow-x: auto;
         }
     }
 }

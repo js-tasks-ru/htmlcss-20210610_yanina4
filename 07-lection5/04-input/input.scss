@@ -3,7 +3,6 @@
     position: relative;
 
     &__input {
-        width: 350px;
         height: 56px;
         background: var(--white);
         border: 1px solid var(--grey-2);
@@ -13,6 +12,10 @@
         font-size: 20px;
         line-height: 26px;
         color: var(--grey-4);
+
+        @media  screen and (min-width: 768px) {
+            width: 350px;
+        }
 
         &::placeholder  {
             color: var(--grey-2);
