@@ -16,6 +16,11 @@
     font-size: 16px;
     line-height: 19px;
     border: 1px solid;
+    transition: transform 200ms ease-in-out;
+
+    &:active{
+        transform: translateY(5px);
+    }
 
     &:disabled{
         opacity: .5;
